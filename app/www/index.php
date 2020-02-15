@@ -2,7 +2,7 @@
 
 use PhpAmqpLib\Message\AMQPMessage;
 
-$app = require(__DIR__.'/../app.php');
+$app = require(__DIR__.'/../../app.php');
 
 $app->register(new Silex\Provider\TranslationServiceProvider(), [
     'translator.messages' => [],
