@@ -3,6 +3,7 @@
         "symfony/form": "^4.4",
         "symfony/security-csrf": "^4.4",
         "symfony/twig-bridge": "^4.4",
-        "symfony/translation": "^4.4"
+        "symfony/translation": "^4.4",
+        "rebangm/silex-guzzlehttp-provider": "^2.0"
     }
 }
